@@ -1,4 +1,5 @@
-# USB → Sega Saturn Controller Adapter
+# USB → Sega Saturn Controller Arduino converter
+
 
 An adapter that allows USB HID controllers to be used with the Sega Saturn, combining a general-purpose logic IC (TC74HC153) with an Arduino.
 
