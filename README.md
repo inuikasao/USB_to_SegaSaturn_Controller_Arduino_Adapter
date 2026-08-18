@@ -99,7 +99,7 @@ The Sega Saturn controller protocol is delegated entirely to the TC74HC153 (4-to
 
 ### Power
 
-By connecting the Saturn controller port Vcc lines (pin1, pin6) to the Arduino's 5V pin, the adapter can run entirely on power from the Saturn console. The IC Vcc is also supplied from the same 5V line. GND (pin9) must be shared with the Arduino.
+By sharing the Saturn controller port Vcc lines (pin1, pin6) with the IC Vcc (pin16), the adapter can run entirely on power from the Saturn console. GND (pin9) must be shared with the Arduino.
 
 Note: Do not connect Saturn and USB at the same time. To upload sketches, disconnect from the Saturn and use a USB cable. If operation is unstable, leave pin1/pin6 floating and power via USB instead.
 
